@@ -1,0 +1,18 @@
+{
+  "mappings": {
+    "properties": {
+      "author": {
+        "index": true,
+        "type": "text"
+      },
+      "age": {
+        "index": false,
+        "type": "integer"
+      },
+      "name": {
+        "index": true,
+        "type": "text"
+      }
+    }
+  }
+}
